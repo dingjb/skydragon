@@ -1,6 +1,6 @@
 {
   "name": "skydragon-gj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "UI Components base on Vue",
   "main": "./lib/index.js",
   "repository": {
