@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-const MessageCom = require('./message.vue');
+import MessageCom from './message.vue';
 const MessageConstructor = Vue.extend(MessageCom.default || MessageCom);
 
 let instance;

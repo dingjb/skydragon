@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import getStyle from './util.js';
+import LoaderComponent from './loader.vue';
 
-const LoaderConstructor = Vue.extend(require('./loader.vue'));
+const LoaderConstructor = Vue.extend(LoaderComponent);
 
 const LoaderDirective = {};
 

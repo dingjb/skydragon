@@ -1,6 +1,7 @@
 import Vue from 'vue';
+import DialogComponent from './dialog.vue';
 
-const DialogConstructor = Vue.extend(require('./dialog.vue'));
+const DialogConstructor = Vue.extend(DialogComponent);
 
 let instance;
 const instances = [];
