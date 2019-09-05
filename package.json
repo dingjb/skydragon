@@ -1,11 +1,11 @@
 {
-  "name": "skydragon",
-  "version": "1.0.108",
+  "name": "skydragon-gj",
+  "version": "1.0.1",
   "description": "UI Components base on Vue",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tongbanjie/skydragon.git"
+    "url": "https://github.com/dingjb/skydragon.git"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.js -p --progress --hide-modules",
@@ -17,7 +17,7 @@
     "vue",
     "skydragon"
   ],
-  "author": "zhishui",
+  "author": "junbinding",
   "license": "MIT",
   "dependencies": {
     "css-loader": "^0.26.1",
